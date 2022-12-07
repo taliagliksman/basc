@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/basc/static/css/main.e4baf2ae.css",
+    "main.js": "/github.io/basc/static/js/main.9bb664ec.js",
+    "static/js/787.5c3bf18d.chunk.js": "/github.io/basc/static/js/787.5c3bf18d.chunk.js",
+    "index.html": "/github.io/basc/index.html",
+    "main.e4baf2ae.css.map": "/github.io/basc/static/css/main.e4baf2ae.css.map",
+    "main.9bb664ec.js.map": "/github.io/basc/static/js/main.9bb664ec.js.map",
+    "787.5c3bf18d.chunk.js.map": "/github.io/basc/static/js/787.5c3bf18d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4baf2ae.css",
+    "static/js/main.9bb664ec.js"
+  ]
+}
