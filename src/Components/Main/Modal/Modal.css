@@ -1,0 +1,89 @@
+
+.e-modal{
+    display:block;
+    position: fixed; 
+    z-index: 3; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+   }
+
+   .s-modal {
+
+    display:block;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;               
+    overflow: auto; 
+   }
+   .contact-form-modal {
+    display:block;
+    background-color: #e6dfdf;
+    position: fixed; 
+    z-index: 15; 
+    padding-top: 100px; 
+    left: 5%;
+    top: 20%;
+    width: 80%; 
+    height: 65%; 
+    overflow: hidden; 
+   }
+   
+ .events-modal-content {
+    background-color:rgb(206, 206, 200,0.2);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    background-color:rgb(206, 206, 200,0.95)
+   }
+   
+   .schedule-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    background-color:rgb(206, 206, 200,0.95)  ;
+   }  
+
+  
+  .closeEvents {
+    color: black;
+    position:relative;
+    left:98%;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .closeEvents:hover,
+  .closeEvents:focus {
+  color: rgb(117, 111, 111);
+  text-decoration: none;
+  cursor: pointer; 
+  }
+
+  .btn {
+    position: relative;
+    width:300px;
+    height:70px;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #00455A;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 60px;
+  } 
+  

@@ -1,0 +1,19 @@
+.main-footer {
+   
+    background-color: #00455A;
+    padding-top: 0;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: white;
+    position:relative;
+    top:60px;
+  } 
+  
+  .bottom-footer{
+    position: absolute;
+    left:40%;
+    bottom:2%;
+    font-size: smaller;
+  }

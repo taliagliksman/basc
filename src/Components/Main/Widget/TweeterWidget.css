@@ -1,0 +1,25 @@
+
+.twitter-container{
+    display:grid;
+    background-color: #DDC558;
+    
+    grid-template-columns: 1fr 1fr; 
+    width: 80%;
+    height:600px;
+    border:none;
+    padding:0;
+    margin-top:30px;
+    position: relative; 
+    top:99.9%;  
+    left:13%;              
+  }
+  
+  
+  .twitter-container .twitter-tweet{
+    display:block;
+    width:100%;
+    position:relative;
+    
+    left:180px;
+    top:80px;
+    }

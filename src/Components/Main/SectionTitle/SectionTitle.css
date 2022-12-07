@@ -1,0 +1,26 @@
+.title-container{
+  
+    margin-top:40px;
+    background-color: #00455A;
+    width: 100%;
+    height: 230px;
+    border: none;
+    padding: 0;
+  } 
+  
+  
+  
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:#DDC558;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-weight:bold;
+    text-align-last: center;
+   } 
+

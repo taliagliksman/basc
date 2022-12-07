@@ -1,0 +1,374 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: content-box;
+  width: 100%;
+}
+/*`  */
+
+.center-button span{
+  position: relative;
+  display: inline-flex;
+  width: 280px;
+  height: 110px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+.center-button span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.center-button span a:before,
+.center-button span a:after{
+  position: absolute;
+  content: "PROGRAM SCHEDULE";
+  height: 90px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid #00455A;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.center-button span a:before{
+  color: #fff;
+  background: #DDC558;
+  border:none;
+  /*transform: rotateY(0deg) translateZ(25px);*/
+}
+.center-button span a:after{
+  color: #00455A;
+  transform: rotateX(90deg) translateZ(25px);
+  transition-duration:0.01s;
+} 
+.center-button span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.program-schedule{
+
+  background-color:white ;
+  width: 400px;
+  height: 100px;
+  position: relative;
+  left:40%;
+}
+.center-button {
+  margin: 0;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  font-weight:bold;
+  text-align-last: center;
+ } 
+               
+.home-container{
+ position:relative;
+ width: 100%; 
+ top:-16px;
+ 
+} 
+
+.sidenav {
+ height: 600px;
+ width: 230px;
+ position: absolute; 
+ top:0;
+ right: 0;
+ background-color: transparent;
+ padding-top: 100px;
+ z-index: 4;
+}
+.sidenav .nav-links{
+  position:fixed; 
+  display:inline-block;
+  width: 250px;;
+}
+
+.sidenav a:hover {
+ color: #B0D2DC;
+}
+
+.sidenav .closebtn {    
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
+}
+
+div.fixed {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    border: none;
+}
+
+
+.coach_container{
+  display:grid;
+  background-color: #ffffff;
+  grid-template-columns: 1fr 1fr; 
+  width: 80%;
+  height: 550px; 
+  border: none;
+  padding: 0;
+  margin: 0;
+  position: relative; 
+  left:13%;
+  background-color:gainsboro;
+  }
+
+.video-container{
+  display:grid;
+  background-color: #ffffff;
+  grid-template-columns: 2fr 1fr; 
+  width: 80%;
+  border:none;
+  padding:0;
+  margin-top:50px;
+  position: relative; 
+  left:13%;
+}
+
+.video-container video {
+  display:block;
+  width:100%;
+  height:95%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.program-container {                                                      
+  display:grid;
+  background-color: white;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 480px 480px 480px;
+  width: 80%;          
+  margin-top:45px;
+  margin-bottom:0;
+  position: relative; 
+  left:13%;
+}
+.grid_item_container{
+  background:#ffffff;
+  padding-right:20px;
+} 
+
+.title-container{
+  
+  margin-top:40px;
+  background-color: #00455A;
+  width: 100%;
+  height: 230px;
+  border: none;
+  padding: 0;
+  position: relative;
+  left:40px;
+} 
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color:#DDC558;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  font-weight:bold;
+  text-align-last: center;
+ } 
+
+
+.grid-image-container img {
+  width: 100%; 
+  justify-content: right;
+  display: block;
+}
+
+.video-side-container {
+    background:#00455A;
+    padding-right:20px;
+    height:95%;
+    margin-bottom:49px;
+}
+
+  .video-side-text{
+    color:#ffff;
+    font-size:20px;
+    font-weight: light;
+    align-self:center;
+    margin: 30px;
+    line-height: 1.4;
+    padding-top: 80px;
+    width:85%;
+  }
+
+.text-grid-item {
+    
+  font-size:20px;
+  font-weight: light;
+  margin: 30px;
+  line-height: 1.4;
+  padding-top: 10px;
+  padding-right:10px;
+  width:83%;
+
+}
+
+.image-grid-item{
+  align-self:center;
+  width:100%;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 30%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: black;
+}
+
+.caption-container {
+  position:relative;
+  top :20px;
+  text-align: center;
+  background-color: #00455A;
+  height:27px;  
+  width:660px;
+  color: white;
+}
+
+.national-club-container {
+  text-align: center;
+  background-color: white;
+  height:270px; 
+  width:100%; 
+  color: black;
+  border:1px solid #00455A;
+  margin-top:20px;
+  margin-right:30px;
+}
+              
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:#00455A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:black;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 51, 70,0.96);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  line-height: 20px;
+}
+.overlay p {
+  padding: 4px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.5s;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  text-decoration:none;
+  color:white;
+}
+
+.left{
+  line-height: 0.7em;
+}
+.footer-link {
+  color:white;
+  text-decoration:none;
+}
+.clear {
+  clear:both;
+}
+
+.btn {
+  position: relative;
+  width:300px;
+  height:70px;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #00455A;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 60px;
+} 
+
+.btn:hover {
+  background-color: #DDC558;
+}
