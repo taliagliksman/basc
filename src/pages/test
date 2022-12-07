@@ -1,0 +1,245 @@
+ 
+      <header>
+        <figure id="home" class="home-container">
+              <img src="images/welcome free image with logo.JPG" alt="Welcome to BASC" style="width:100%"/>
+              <p id="animation" class="welcome"> WELCOME</p>
+        </figure>
+        <button class="hamburger">
+            <span onclick="openNav()"> ☰  </span>
+        </button>  
+     </header> 
+     <main>
+      <div id="leading-coach" class="title-container" style="margin-top:40px" >
+          <div class="center">
+              <p>BENDIGO ARTISTIC SWIMMING CLUB<br/>OLGA BRADECHEV </p>
+          </div>
+      </div>
+
+      <div class="coach_container" style="background-color:gainsboro">
+        <div  class="grid_item_container" style="padding-right:20px;">
+          <div class="text-grid-item" style="padding-top: 80px"> 
+            Lorem ipsum dolor sit amet, consectetur at. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nul . usce in lorem erat. Maecenas adipiscing usce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla it.usce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus dapibus, id elit.usce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, id adipiscing elit." 
+            <br></br>
+            <button class="btn" onclick="openInfo()" style="color:#00455A;background-color: #DDC558;font-weight:bold">LEARN MORE ABOUT OLGA</button>
+          </div>  
+        </div>
+          <figure class="image-grid-item" style="align-self:center">
+              <img src="images/Olga.jpg" alt="Learn about leading couch Olga Bradechev" style="width:100%" />
+          </figure>
+      </div>
+
+      <div id="more-info" class="overlay">
+        <a href="javascript:void(0)" class="closebtn"  onclick="closeInfo()">&times;</a>
+        <div class="overlay-content">
+          <p> Lorem ipsum dolor sit amet, consectetur at. Maecenas commodo ornare metus </p>            
+          <p> s eu luctus. Integer pharetra turpis eget nulconsectetur at. Ma </p>
+          <p> Lorem ipsum dolor sit amet, consectetur at. Maecenas commodo ornare metus </p>            
+          <p> cMaecenas adipiscing usce in lorem erat. Maecctetur at. Ma </p>
+        </div>
+      </div>
+
+      <div id="programs" class="title-container" style="margin-top:50px">
+        <div class="center">
+            <p>OUR PROGRAMS </p>
+        </div>
+      </div>
+
+      <div class="program-container">
+
+        <div class="grid-image-container">
+          <img src="images/recreational program.jpg" alt="Learn about the recreational program" />
+        </div>
+        <div  class="grid_item_container" style="padding-right:20px">
+          <div class="text-grid-item"> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. luctus. Integer pharetra turpis eget nulla  volutpat magna a, hendrerit nisi. lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, consectetur adipiscing elit. Fusce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, id cursus lectus tincidunt. Phasellus eu lorem interdum usce in lorem erat.Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, id adipiscing elit Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, id adipiscing elit." 
+            <br></br>
+            <button onclick="openInfo()" class="btn">RECREATION PROGRAM</button>
+          </div>  
+        </div>
+
+        <div  class="grid_item_container" style="padding-right:20px">
+          <div class="text-grid-item">
+            Lorem ipsum dolor sit amet, sectetur adipiscing elit. Lsce in s eu luctus. Integer em Fusce in s eu nsectetur adipiscing elit. Fusce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, id cursus lectus tincidunt. Phasellus eu lorem interdum, volutpat magna a, hendrerit nisi. lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, consectetur adipiscing elit. Fusce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, id cursus lectus tincidunt. Phasellus eu lorem interdum, volutpat magna a, hendrerit nisi. Integer eu tellus turpis. Cras sit amet odio nec du" 
+            <br></br>
+            <button onclick="openInfo()" class="btn">PERFORMANCE CLUB</button>
+          </div>  
+        </div> 
+
+        <div class="grid-image-container">
+          <img src="images/performance club.jpeg" alt="Learn about the performance club" />
+        </div>
+
+        <div class="grid-image-container">
+          <img src="images/team competition.jpg" alt="Learn about the team competition" />
+        </div>
+        <div  class="grid_item_container" style="padding-right:20px">
+          <div class="text-grid-item">
+            Lorem ipsum dolor sit amet, sectetur adipiscing elit. Fusce in s eu luctus. Integer pharetra turpis eget nulla dapibus, consectetur adipiscing elit. Fusce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, id cursus lectus tincidunt. Phasellus eu lorem interdum, volutpat magna a, hendrerit nisi. lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, consectetur adipiscing elit. Fusce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, id cursus lectus tincidunt. Phasellus eu lorem interdum, volutpat magna a, hendrerit nisi. Integer eu tellus turpis. Cras sit amet odio nec du" 
+            <br></br>
+            <button onclick="openInfo()" class="btn">TEAM COMPETITION</button>
+          </div>  
+        </div>
+      </div> 
+
+      <div class="title-container">
+          <div class="center">
+            <p>OLYMPIC ACHIEVMENTS</p>
+          </div> 
+      </div> 
+    <div class="video-container">
+      <div class="item1">
+          <video id="vid" src="https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_1MB.mp4" width="450" controls type="video/mp4"> </video>
+      </div> 
+      <div  class="grid_item_container" style="background:#00455A;padding-right:20px;height:95%;margin-bottom:49px">
+        <div class="text-grid-item" style="color:white;">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, id cursus lectus tincidunt. Phasellus eu lorem interdum, volutpat magna a, hendrerit nisi. Integer eu tellus turpis. Cras sit amet odio nec du" 
+        </div>
+      </div>
+    </div>
+         
+    <div  id="national-club" class="title-container"/>
+      <div class="center">
+          <p>THE NATIONAL CLUB</p>
+    </div>        
+    <div> </div>
+
+    <div class="twitter-container" >
+      
+
+      <div class="gallery-container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 3</div>
+          <img class="imageGallery" src="images/gallery 1.jpg" alt="London 2012" style="width:100%"/>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img class="imageGallery" src="images/gallery 2.jpg" alt="artistic swimming squad for the Tokyo 2020 " style="width:100%"/>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img class="imageGallery" src="images/gallery 3.jpg" alt="artistic swimming Queensland" style="width:100%"/>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      
+        <div class="caption-container">
+          <p id="caption" style="color:white;padding:12px"></p>
+        </div>
+        <div class="national-club-container" >
+        <p class="text-grid-item" style="align-content:center;">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Fusce in em ipsum dolor sit amet,consectetur adipiscing elit. Fusce in lorem erat. Maecenas commodo ornare metus eu luctus. consectetur adipiscing elit. Fusce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, lorem erat. Maecenas commodo ornare metus eu luctus. consectetur adipiscing elit. Fusce in lorem erat. Maecenas commodo ornare metus eu luctus. Integer pharetra turpis eget nulla dapibus, </p>
+        </div>
+      </div>
+      </div>
+
+      <div id="mySidenav" class="sidenav">
+        <div id="nav-links">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#leading-coach">LEADING COACH</a>   
+          <a href="#programs">OUR PROGRAMS</a>             
+          <a href="#" id="schedule-link">WEEKLY SCHEDULE</a>
+          <a href="#" id="events-link">UPCOMING EVENTS</a>
+          <a href="#national-club">NATIONAL CLUB</a>
+          <a href="#" id="contact-link">CONTACT US</a>
+          <a href="#home" id="home-link">HOME</a>
+        </div>
+      </div>   
+
+      <div id="schedule-modal" class="s-modal">
+       <div class="schedule-modal-content">
+        <span class="closeSchedule">&times;</span>
+        
+        <table>
+          <h2>Weekly Schedule </h2>
+          <h3>Morning session 9am-11am * Evening session 4pm-6pm</h3>
+
+          <tr>
+              <th>week 36/2022</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+          </tr>  
+          <tr>
+            <td>Morning Session</td>
+            <td>Performance</td>
+            <td>Competition</td>
+            <td>Performance</td>
+            <td>Competition</td>
+            <td>Performance</td>
+            <td>Recreational</td>
+          </tr>
+          <tr>
+            <td>Evening Session</td>
+            <td>Performance</td>
+            <td>Performance</td>
+            <td>Competition</td>
+            <td>Competition</td>
+            <td>Recreational</td>
+            <td>Recreational</td>
+          </tr>  
+        </table>
+      </div>
+    </div>
+
+    <div id="events-modal" class="e-modal">
+      <div class="events-modal-content">
+        <span class="closeEvents">&times;</span>
+
+        <table>
+            <h2>Upcoming Events</h2>
+            <tr>
+                <th>Date</th>
+                <th>Location</th>
+                <th>Details</th>
+            </tr>  
+            <tr>
+              <td>19/11/2022</td>
+              <td>Brisbane Olympic Pool</td>
+              <td>Tournament - over 17</td>                     
+            </tr>
+            <tr>
+              <td>5/12/2022</td>
+              <td>Fund Raising</td>
+              <td>Bendigo RSL</td>                     
+            </tr>
+            <tr>
+              <td>11/12/2022</td>
+              <td>BASC</td>
+              <td>End of Term Showcase - recreation program</td>                     
+            </tr>
+          </table>
+        </div>  
+        </div>  
+        
+        <div id="contact-modal" class="contact-form-modal">
+        <div class="contact-modal-content">
+          <span class="closeForm">&times;</span>
+          
+          <div class="form-container" >
+            <div style="text-align:center">
+              <h2>We would love to hear from you.</h2>
+              <h2> Message us and we will contact you shortly.</h2>
+            </div>    
+          
+            <div>
+                <form action="" style="width:98%">
+                  <label for="name">Name</label>
+                  <input  aria-label="enter your full name" type="text" id="name" name="fullname" placeholder="Enter your full name."/>
+                  <label for="e-mail">e-mail</label>
+                  <input  aria-label="enter your e-mail address" type="text" id="e-mail" name="email" placeholder="Enter your e-mail address."/>
+                
+                  
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write your message." style="height:170px"></textarea>
+                  <input aria-label="submit contact form" type="submit" value="Submit"/>
+                </form>
+            </div>
+          </div>
+        </div>  
+      </div>    
+    </main>
